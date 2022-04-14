@@ -21,7 +21,7 @@ Setting up the database:
 1. Connect to `psql`
 2. Create the database using the `psql` command `CREATE DATABASE daily_diary;`
 3. Connect to the database using the `qsql` command `\c daily_diary;`
-_4. Run the query saved in the file `./db/migrations/01_create_bookmarks_table.sql`_
+4. Run the query saved in the file `./db/migrations/01_create_diaryentries_table.sql`
 
 ## Usage
 
