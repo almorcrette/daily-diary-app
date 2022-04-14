@@ -1,6 +1,8 @@
 require 'sinatra/base'
 require 'sinatra/reloader'
 
+require_relative './lib/diaryentry'
+
 class DailyDiary < Sinatra::Base
   configure :development do
     register Sinatra::Reloader
@@ -16,6 +18,11 @@ class DailyDiary < Sinatra::Base
       content: params[:content]
     )
     redirect '/diaryentries'
+  end
+
+  get '/diaryentries' do
+    @entries = DiaryEntry.all
+    erb(:diaryentries)
   end
 
   run! if app_file == $0

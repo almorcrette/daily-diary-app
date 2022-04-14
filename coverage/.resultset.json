@@ -26,20 +26,6 @@
           1,
           1,
           1,
-          0,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/almorcrette/coding/projects/daily-diary-app/lib/diaryentry.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
           1,
           null,
           null,
@@ -47,6 +33,6 @@
         ]
       }
     },
-    "timestamp": 1649936230
+    "timestamp": 1649938261
   }
 }
