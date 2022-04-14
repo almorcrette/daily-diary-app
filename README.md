@@ -37,9 +37,7 @@ Navigate to `http://localhost:4567/`
 
 ## Overview of approach and design
 
-### User stories
-
-#### Must Have
+### User stories - Must Have
 
 ```
 As a user
@@ -61,6 +59,10 @@ As a user
 So that I can read my previous entries
 I want to click on a title to see the full Diary Entry
 ```
+
+### Plan - Must Have
+
+![](./daily-diary-plan.png)
 
 #### Should Have
 
