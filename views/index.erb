@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>New daily diary entry</h1>
+
+<form action="/diaryentries" method="post" id="new_entry">
+  Title: <input type="text" name="title">
+  <input type="submit" value="Save new entry">
+</form>
+<br>
+<textarea rows="10" cols="80" name="content" form="new_entry">
+Enter you entry's contents here...</textarea>

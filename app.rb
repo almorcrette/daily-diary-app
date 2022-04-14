@@ -7,7 +7,15 @@ class DailyDiary < Sinatra::Base
   end
 
   get '/' do
-    'Hello World'
+    erb(:index)
+  end
+
+  post '/diaryentries' do
+    DiaryEntry.create(
+      title: params[:title],
+      content: params[:content]
+    )
+    redirect '/diaryentries'
   end
 
   run! if app_file == $0
